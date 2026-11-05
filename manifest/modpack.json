@@ -1,0 +1,46 @@
+{
+  "name": "Ender Exploration Modpack",
+  "version": "1.0.0",
+  "author": "EnderDevelopment",
+  "loader": {
+    "id": "forge",
+    "version": "47.3.0",
+    "minecraft": "1.20.1"
+  },
+  "description": "A balanced exploration-focused modpack: Create, Farmer's Delight, Alex's Mobs, Terralith, Better End, Better Nether, boss mods and compasses — about 30 mods tuned so new power always costs effort.",
+  "files": [
+    { "id": "geckolib",       "name": "GeckoLib",                 "role": "core-library" },
+    { "id": "caelus",         "name": "Caelus",                   "role": "core-library" },
+    { "id": "create",         "name": "Create",                   "role": "tech" },
+    { "id": "create-additions","name": "Create Additions",        "role": "tech" },
+    { "id": "farmers-delight","name": "Farmer's Delight",         "role": "food" },
+    { "id": "croptopia",      "name": "Croptopia",                "role": "food" },
+    { "id": "alexs-mobs",     "name": "Alex's Mobs",              "role": "mobs" },
+    { "id": "terralith",      "name": "Terralith",                "role": "biomes" },
+    { "id": "yungs-better-caves", "name": "YUNG's Better Caves",  "role": "caves" },
+    { "id": "yungs-better-mineshafts", "name": "YUNG's Better Mineshafts", "role": "caves" },
+    { "id": "better-end",     "name": "Better End",               "role": "dimension" },
+    { "id": "better-nether",  "name": "Better Nether",            "role": "dimension" },
+    { "id": "explorers-compass", "name": "Explorer's Compass",    "role": "exploration" },
+    { "id": "adventurers-compass", "name": "Adventurer's Compass","role": "exploration" },
+    { "id": "journeymap",     "name": "JourneyMap",               "role": "map" },
+    { "id": "travelers-backpack", "name": "Traveler's Backpack",  "role": "storage" },
+    { "id": "bosses-of-mass-destruction", "name": "Bosses of Mass Destruction", "role": "boss" },
+    { "id": "cataclysm",      "name": "Cataclysm",                "role": "boss" },
+    { "id": "jei",            "name": "Just Enough Items",        "role": "library" },
+    { "id": "jade",           "name": "Jade",                     "role": "library" },
+    { "id": "appleskin",      "name": "AppleSkin",                "role": "library" },
+    { "id": "controlling",    "name": "Controlling",              "role": "library" },
+    { "id": "embeddium",      "name": "Embeddium",                "role": "performance" },
+    { "id": "ferritecore",    "name": "FerriteCore",              "role": "performance" },
+    { "id": "fastload",       "name": "Fastload",                 "role": "performance" },
+    { "id": "towns-and-towers","name": "Towns & Towers",          "role": "structures", "optional": true }
+  ],
+  "optionalCount": 1,
+  "balance": {
+    "noTeleportMods": true,
+    "bossGatedMaterials": true,
+    "compassCraftingCost": "elevated",
+    "backpackLimit": "capped"
+  }
+}

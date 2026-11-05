@@ -1,0 +1,39 @@
+# Adventure Modpack (manifest format)
+# Launcher-import friendly summary. Jars must be downloaded by the user.
+# See MODLIST.md for the canonical list and project links.
+
+name: Ender Exploration Modpack
+version: 1.0.0
+loader: forge
+loader_version: 47.3.0
+minecraft: 1.20.1
+
+mods:
+  - geckolib
+  - caelus
+  - create
+  - create-additions
+  - farmers-delight
+  - croptopia
+  - alexs-mobs
+  - terralith
+  - yungs-better-caves
+  - yungs-better-mineshafts
+  - better-end
+  - better-nether
+  - explorers-compass
+  - adventurers-compass
+  - journeymap
+  - travelers-backpack
+  - bosses-of-mass-destruction
+  - cataclysm
+  - jei
+  - jade
+  - appleskin
+  - controlling
+  - embeddium
+  - ferritecore
+  - fastload
+
+optional:
+  - towns-and-towers

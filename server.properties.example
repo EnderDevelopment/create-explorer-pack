@@ -1,0 +1,20 @@
+# Reference server.properties tuned for this pack.
+# The larger Terralith world and many loaded chunks need a moderate view distance.
+# Copy to your server folder next to server.jar.
+
+# Port / motd — set your own
+server-port=25565
+motd=Ender Exploration Modpack - Forge 1.20.1
+
+# Performance/balance values
+view-distance=10
+simulation-distance=8
+max-players=20
+
+# Keep worldgen intact
+level-type=minecraft\:normal
+generate-structures=true
+
+# Reasonable for the boss/dimension content
+spawn-protection=0
+hardcore=false
